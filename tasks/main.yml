@@ -1,0 +1,6 @@
+- name: set env
+  template:
+    src: .env.j2
+    owner: "{{ set_env_owner }}"
+    group: "{{ set_env_group }}"
+    dest: "{{ set_env_file }}"
