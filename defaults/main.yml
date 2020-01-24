@@ -3,5 +3,5 @@
 
 set_env_owner: deploy
 set_env_group: deploy
-set_env_file: "/opt/{{project_name}}/shared/.env}}"
+set_env_file: "/opt/{{project_name}}/shared/.env"
 set_env_secrets: []
