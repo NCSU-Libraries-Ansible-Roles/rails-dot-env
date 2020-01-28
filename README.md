@@ -9,7 +9,7 @@ Variable | Default | Notes
 --- | --- | ---
 set_env_owner | deploy | -
 set_env_group | deploy | -
-set_env_file | "/opt/{{project_name}}/shared/.env}}" | -
+set_env_file | "/opt/{{project_name}}/shared/.env" | -
 set_env_secrets | empty array | an array of key value pairs
 
 ### set_env_secrets example
